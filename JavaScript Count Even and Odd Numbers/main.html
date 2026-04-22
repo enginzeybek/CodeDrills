@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Even and Odd Numbers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Kartın sayfada güzel durması için küçük bir dikey boşluk */
+        body {
+            background-color: #f8f9fa;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">               
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Kullanıcıdan virgülle ayrılmış sayılar al</h5>                       
+                        <p class="card-text" id="result">Sonuç</p>
+                    </div>                   
+                    <div class="card-footer text-muted small text-center">
+                        <button type="submit" class="btn btn-primary" onclick="CountEvenOdd()">Sonucu Gör</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function CountEvenOdd() {
+            let strNumbers = prompt("Virgül ile ayırarak rakamlar giriniz.");
+            if (!strNumbers) {
+                alert("GEÇERLİ İFADE GİRİNİZ!!!");
+                return;
+            }
+            let strArrays = strNumbers.split(",");
+            let intArrays = strArrays.map(x => Number(x.trim()));
+            let evenCount = 0;
+            let oddCount = 0;
+            for (let i = 0; i < intArrays.length; i++) {
+                if (intArrays[i] % 2 == 0) {
+                    evenCount++;
+                }
+                else{
+                    oddCount++;
+                } 
+            }
+            document.getElementById("result").innerHTML = `Even count: ${evenCount}<br>Odd count: ${oddCount}`;
+        }
+    </script>
+</body>
+</html>
