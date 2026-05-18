@@ -1,0 +1,15 @@
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\bin\Debug\net9.0\C# Reverse a Word.exe
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\bin\Debug\net9.0\C# Reverse a Word.deps.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\bin\Debug\net9.0\C# Reverse a Word.runtimeconfig.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\bin\Debug\net9.0\C# Reverse a Word.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\bin\Debug\net9.0\C# Reverse a Word.pdb
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\C# Reverse a Word.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\C# Reverse a Word.AssemblyInfoInputs.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\C# Reverse a Word.AssemblyInfo.cs
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\C# Reverse a Word.csproj.CoreCompileInputs.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\C# Reverse a Word.sourcelink.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\C# Reverse a Word.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\refint\C# Reverse a Word.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\C# Reverse a Word.pdb
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\C# Reverse a Word.genruntimeconfig.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Reverse a Word\obj\Debug\net9.0\ref\C# Reverse a Word.dll

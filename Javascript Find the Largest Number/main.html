@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Büyük Sayıyı Bul</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f1f3f5;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .main-card {
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+        }
+        .result-box {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-11 col-sm-8 col-md-5 col-lg-4">
+                
+                <div class="card main-card p-4">
+                    <div class="card-body text-center">
+                        
+                        <div class="mb-4">
+                            <h3 class="fw-bold text-primary">En Büyük Sayıyı Bul</h3>
+                            <p class="text-muted small">Butona tıklayın ve sayıları açılan pencereye girin.</p>
+                        </div>
+
+                        <div class="d-grid gap-2 mb-4">
+                            <button id="startBtn" class="btn btn-primary btn-lg fw-semibold shadow-sm py-3" type="button">
+                                🚀 Sayıları Girmeye Başla
+                            </button>
+                        </div>
+
+                        <div id="resultContainer" class="p-3 rounded-3 bg-light border d-none">
+                            <div class="text-secondary small mb-1">Girilen En Büyük Sayı</div>
+                            <div id="resultValue" class="text-success result-box">0</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const startBtn = document.getElementById("startBtn");
+            startBtn.addEventListener("click",function() {
+                let numbers = prompt("Aralarına virgül koyarak sayılar giriniz");
+                if (!numbers) {
+                    alert("Boş geçmeyiniz");
+                    return;
+                }
+                let strNumbers = numbers.split(",");
+                let intNumbers = strNumbers.map(x => Number(x.trim()));
+                let MaxNumber = intNumbers[0];
+                for (let i = 1; i < intNumbers.length; i++) {
+                    if (intNumbers[i] > MaxNumber) {
+                        MaxNumber = intNumbers[i];
+                    }
+                }
+                document.getElementById("resultValue").innerText = `Max number: ${MaxNumber}`;
+                document.getElementById("resultContainer").classList.remove("d-none");
+            });
+        
+    </script>
+</body>
+</html>
