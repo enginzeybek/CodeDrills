@@ -1,0 +1,15 @@
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\bin\Debug\net9.0\C# Count Digits in a String.exe
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\bin\Debug\net9.0\C# Count Digits in a String.deps.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\bin\Debug\net9.0\C# Count Digits in a String.runtimeconfig.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\bin\Debug\net9.0\C# Count Digits in a String.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\bin\Debug\net9.0\C# Count Digits in a String.pdb
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\C# Count Digits in a String.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\C# Count Digits in a String.AssemblyInfoInputs.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\C# Count Digits in a String.AssemblyInfo.cs
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\C# Count Digits in a String.csproj.CoreCompileInputs.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\C# Count Digits in a String.sourcelink.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\C# Count Digits in a String.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\refint\C# Count Digits in a String.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\C# Count Digits in a String.pdb
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\C# Count Digits in a String.genruntimeconfig.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Digits in a String\obj\Debug\net9.0\ref\C# Count Digits in a String.dll
