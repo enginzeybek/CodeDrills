@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>En Uzun Kelime Bulucu</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+ 
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #1e293b;
+    color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+ 
+  .card {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 32px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+ 
+  h1 {
+    font-size: 1.3rem;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+ 
+  input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #475569;
+    background: #1e293b;
+    color: #f1f5f9;
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+ 
+  input:focus {
+    outline: none;
+    border-color: #38bdf8;
+  }
+ 
+  button {
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    background: #38bdf8;
+    color: #0f172a;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+ 
+  button:hover {
+    background: #0ea5e9;
+  }
+ 
+  #result {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 1.1rem;
+    min-height: 24px;
+  }
+ 
+  #result strong {
+    color: #38bdf8;
+  }
+</style>
+</head>
+<body>
+ 
+  <div class="card">
+    <h1>En Uzun Kelime Bulucu</h1>
+    <input type="text" id="sentenceInput" placeholder="Bir cümle giriniz...">
+    <button onclick="findLongestWord()">Bul</button>
+    <div id="result"></div>
+  </div>
+ 
+  <script>
+    function findLongestWord() {
+      let sentence = document.getElementById("sentenceInput").value;
+      if (!sentence.trim()) {
+        alert("Boş Geçmeyiniz");
+        return;
+      }
+      let sentenceArray = sentence.split(" ");
+
+      let longestword = sentenceArray[0];
+
+      for (let i = 1; i < sentenceArray.length; i++) {
+         
+         let currentword = sentenceArray[i];
+
+         if (currentword.length > longestword.length) {
+            longestword = currentword;
+         }
+         
+        
+      }
+      document.getElementById("result").innerText = `Longest word: ${longestword}`;
+    }
+  </script>
+ 
+</body>
+</html>
