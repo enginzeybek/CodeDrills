@@ -1,0 +1,15 @@
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\bin\Debug\net10.0\C# Count Words.exe
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\bin\Debug\net10.0\C# Count Words.deps.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\bin\Debug\net10.0\C# Count Words.runtimeconfig.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\bin\Debug\net10.0\C# Count Words.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\bin\Debug\net10.0\C# Count Words.pdb
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\C# Count Words.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\C# Count Words.AssemblyInfoInputs.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\C# Count Words.AssemblyInfo.cs
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\C# Count Words.csproj.CoreCompileInputs.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\C# Count Words.sourcelink.json
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\C# Count Words.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\refint\C# Count Words.dll
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\C# Count Words.pdb
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\C# Count Words.genruntimeconfig.cache
+c:\Users\LENOVO 2022\Documents\Github\DevPracticeLab\C# Count Words\obj\Debug\net10.0\ref\C# Count Words.dll
